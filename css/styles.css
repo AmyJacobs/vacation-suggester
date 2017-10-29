@@ -1,0 +1,47 @@
+body {
+  background-color: #00b2ff;
+  color:white;
+  text-shadow:1px 1px 3px #00386d, -1px -1px 3px #00386d;
+}
+
+#xerus img {
+  width:100%;
+  margin-bottom:20px;
+}
+
+#xerus {
+  width:500px;
+  margin:auto;
+  margin-bottom:20px;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: #2b5dad;
+}
+
+#faln {
+  width:500px;
+  margin:auto;
+  margin-bottom:20px;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: #2b5dad;
+}
+
+#faln img {
+  width:100%;
+  margin-bottom:20px;
+}
+
+#nebula {
+  width:500px;
+  margin:auto;
+  margin-bottom:20px;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: #2b5dad;
+}
+
+#nebula img {
+  width:100%;
+  margin-bottom:20px;
+}

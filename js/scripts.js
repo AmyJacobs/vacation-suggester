@@ -1,18 +1,16 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var person1Input = $("input#person1").val();
-    var person2Input = $("input#person2").val();
-    var animalInput= $("input#animal").val();
-    var exclamationInput = $("input#exclamation").val();
-    var verbInput = $("input#verb").val();
-    var nounInput = $("input#noun").val();
+    var nebula = 0;
+    var xerus = 0;
+    var faln = 0;
 
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
+    var atmosInput = $("input:radio[name=atmos]:checked").val();
+    var tempInput = $("input:radio[name=temp]:checked").val();
+    var colorInput = $("input:radio[name=color]:checked").val();
+
+    if (atmosInput==="water") {
+      
+    }
 
     $("#story").show();
 
