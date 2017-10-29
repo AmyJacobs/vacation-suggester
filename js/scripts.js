@@ -9,10 +9,16 @@ $(document).ready(function() {
     var colorInput = $("input:radio[name=color]:checked").val();
 
     if (atmosInput==="water") {
-      
+      faln +=1;
+    } else if (atmosInput==="oxygen" || atmosInput==="hydrogen") {
+      xerus +=1;
+    } else if (atmosInput==="none") {
+      nebula +=1;
     }
 
-    $("#story").show();
+    alert("Faln:" + faln);
+    alert("Xerus:" + xerus);
+    alert("Nebula:" + nebula);
 
     event.preventDefault();
   });
