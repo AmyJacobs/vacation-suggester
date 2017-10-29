@@ -43,9 +43,6 @@ $(document).ready(function() {
       }
     }
 
-    alert("Faln:" + faln);
-    alert("Xerus:" + xerus);
-    alert("Nebula:" + nebula);
 
     if (faln > xerus && faln > nebula) {
       $("#faln").show();

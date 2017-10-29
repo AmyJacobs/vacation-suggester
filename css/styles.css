@@ -17,6 +17,7 @@ body {
   border: 1px solid white;
   padding: 20px;
   background-color: #2b5dad;
+  margin-top:20px;
 }
 
 #faln {
@@ -27,6 +28,7 @@ body {
   border: 1px solid white;
   padding: 20px;
   background-color: #2b5dad;
+  margin-top:20px;
 }
 
 #faln img {
@@ -39,6 +41,7 @@ body {
   width:500px;
   margin:auto;
   margin-bottom:20px;
+  margin-top:20px;
   border: 1px solid white;
   padding: 20px;
   background-color: #2b5dad;
@@ -54,7 +57,7 @@ body {
 }
 
 .radio {
-  webkit-transition: color 2s, text-shadow 2s; /* Safari */
+  webkit-transition: color 0.5s, text-shadow 0.5s; /* Safari */
   transition: color 0.5s, text-shadow 0.5s;
 }
 
