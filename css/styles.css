@@ -48,3 +48,17 @@ body {
   width:100%;
   margin-bottom:20px;
 }
+
+.btn {
+  color: #003c6b;
+}
+
+.radio {
+  webkit-transition: color 2s, text-shadow 2s; /* Safari */
+  transition: color 0.5s, text-shadow 0.5s;
+}
+
+.radio:hover {
+  color: #003c6b;
+  text-shadow:1px 1px 3px white, -1px -1px 3px white;
+}
