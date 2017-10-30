@@ -20,7 +20,6 @@ $ git clone https://github.com/AmyJacobs/vacation-suggester.git
 * [Atom](https://atom.io/) - The web framework used
 
 
-
 ## Authors
 
 * **Amelia Jacobs** - [AmyJacobs](https://github.com/AmyJacobs)

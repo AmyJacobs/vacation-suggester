@@ -8,6 +8,7 @@ $(document).ready(function() {
     var tempInput = $("input:radio[name=temp]:checked").val();
     var colorInput = $("input:radio[name=color]:checked").val();
     var foodInput = $("input:radio[name=food]:checked").val();
+    var timeInput = $("input:radio[name=time]:checked").val();
 
 
     if (atmosInput==="water") {
@@ -30,6 +31,14 @@ $(document).ready(function() {
     } else if (colorInput ==="red") {
       xerus +=1;
     } else if (colorInput ==="green" || colorInput ==="infared") {
+      nebula +=1;
+    }
+
+    if (timeInput==="short") {
+      xerus +=1;
+    } else if (timeInput ==="long") {
+      faln +=1;
+    } else if (timeInput ==="infinite") {
       nebula +=1;
     }
 
