@@ -1,5 +1,7 @@
 # Vacation Suggestions
 
+[GitHub Pages](https://amyjacobs.github.io/vacation-suggester/)
+
 A simple webpage which selects a vacation destination based on the user's input.
 
 ## Getting Started
